@@ -1,6 +1,5 @@
 # banana-dqn
-dqn implementation to train agent in Banana collector within Unity
-
+Implement Double-dqn to train agent in Banana collector within Unity
 
 
 ## Dependencies
@@ -29,7 +28,11 @@ pip install .
 ```
 
 ## Train Agent
-
 ```
 $ python Banana_train.py
+```
+
+## Test Agent
+```
+$ python Banana_test.py
 ```

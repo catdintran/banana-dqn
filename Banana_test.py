@@ -31,7 +31,7 @@ for t in range(max_t):
         next_state = env_info.vector_observations[0]   # get the next state
         reward = env_info.rewards[0]                   # get the reward
         done = env_info.local_done[0]
-        #agent.step(state,action,reward,next_state,done)
+        agent.step(state,action,reward,next_state,done)
         score += reward                                # update the score
         state = next_state
 
